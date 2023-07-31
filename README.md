@@ -102,6 +102,14 @@ void Det_ReportError(uint16_t ModuleId, uint8_t InstanceId, uint8_t ApiId, uint8
 ```
 This API is used to report an error to the Development Error Tracer (DET) driver. It takes four parameters: ModuleId, InstanceId, ApiId, and ErrorId. These parameters are used to identify the module, instance, API, and error that caused the error.
 
+# **Version Information**
+- Module Version: 1.0.0
+- AUTOSAR Version: 4.0.3
+- Software Version:
+    - Major Version: 1
+    - Minor Version: 0
+    - Patch Version: 0
+
 ## **Implementation Details**
 The DIO driver implementation in this repository uses the Development Error Tracer (DET) driver to detect and report errors during runtime. The AUTOSAR-defined error parameter APIs are used to report errors to the DET driver.
 
